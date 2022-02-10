@@ -1,0 +1,77 @@
+/* --import of all the css component-- */
+
+
+/* font-awesome */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+/* *** */
+
+
+/* alert */
+
+@import url("/components/Alert.css");
+
+/* avatar */
+
+@import url("/components/Avatar.css");
+
+/* Badge */
+
+
+/* Buttons */
+
+
+/* card */
+
+
+/* images */
+
+
+/* input */
+
+
+/* text utilities */
+
+
+/* List */
+
+
+/* Navbar */
+
+
+/* Modal */
+
+
+/* rating for e-commerce */
+
+
+/* Toast */
+
+
+/* Grid simplified */
+
+
+/* colors variables */
+
+:root {
+    --primary: rgb(0, 0, 255);
+    --primary-hover: rgb(0, 33, 140);
+    --secondary: rgb(128, 128, 128);
+    --secondary-hover: rgb(115, 115, 115);
+    --success: rgb(0, 143, 10);
+    --success-hover: rgb(0, 87, 0);
+    --danger: rgb(255, 0, 0);
+    --danger-hover: rgb(186, 0, 0);
+    --warning: rgb(255, 174, 0);
+    --warning-hover: rgb(133, 90, 0);
+    --info: rgb(0, 157, 168);
+    --info-hover: rgb(0, 90, 97);
+    --light: rgb(245, 245, 245);
+    --light-hover: rgb(230, 230, 230);
+    --dark: rgb(84, 84, 84);
+    --dark-hover: rgb(26, 26, 26);
+}
+
+
+/* *** */
