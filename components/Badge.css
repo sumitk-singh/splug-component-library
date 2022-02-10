@@ -1,0 +1,64 @@
+.badge {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3.125rem;
+    align-items: center;
+}
+
+
+/* for m size */
+
+.status-m-size {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    bottom: 28px;
+    margin-left: 4.8rem;
+    position: relative;
+}
+
+
+/* *** */
+
+
+/* for s size */
+
+.status-s-size {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    bottom: 22px;
+    margin-left: 2.4rem;
+    position: relative;
+}
+
+
+/* *** */
+
+.online {
+    background: green;
+}
+
+.offline {
+    background: rgb(252, 0, 0);
+}
+
+.away {
+    background: rgb(255, 176, 4);
+}
+
+.update {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 0, 0);
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    bottom: 30px;
+    margin-left: 0.5rem;
+    position: relative;
+}
