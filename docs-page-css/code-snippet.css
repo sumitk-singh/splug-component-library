@@ -1,0 +1,28 @@
+/* code-snippet */
+
+
+/* code snippet */
+
+.code-snippet {
+    box-sizing: border-box;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 2rem;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(228, 228, 228);
+    color: #fff;
+    height: 2px;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    border: hidden;
+}
+
+
+/* end of code snippet */

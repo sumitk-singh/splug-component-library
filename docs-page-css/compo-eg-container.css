@@ -1,0 +1,70 @@
+.alert-example {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: solid 1px rgb(237, 237, 237);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 1px;
+}
+
+.horizontal-card-with-text-overlay-example,
+.horizontal-card-example,
+.heading-example {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: solid 1px rgb(237, 237, 237);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.list-spaced-example,
+.stacked-list-example {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 1px rgb(237, 237, 237);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.avatar-example,
+.badge,
+.solid-buttons-example,
+.outline-buttons-example,
+.link-icon-floating-buttons-example,
+.card-with-badge-example,
+.card-with-dismiss-example,
+.text-only-card-example,
+.vertical-card-example,
+.responsive-images-example,
+.round-images-example,
+.form-example,
+.small-text-example,
+.gray-text-example,
+.cneter-text-example,
+.nav-bar-example,
+.modal-example,
+.rating-example,
+.toast-example,
+.grid-example {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: solid 1px rgb(237, 237, 237);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 15px;
+}
