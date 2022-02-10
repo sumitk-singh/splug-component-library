@@ -18,9 +18,11 @@
 
 /* Badge */
 
+@import url("/components/Badge.css");
 
 /* Buttons */
 
+@import url("/components/Button.css");
 
 /* card */
 
