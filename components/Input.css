@@ -1,7 +1,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.315rem;
     margin: 1rem;
     width: 15rem;
 }
@@ -9,11 +9,11 @@
 .form>a {
     width: fit-content;
     height: auto;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0.315rem;
+    padding-left: 0.63rem;
+    padding-right: 0.63rem;
     border: 1px solid gray;
-    margin-top: 10px;
+    margin-top: 0.63rem;
     text-decoration: none;
 }
 
