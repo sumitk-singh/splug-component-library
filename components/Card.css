@@ -1,0 +1,261 @@
+/* 1. Cards with badges */
+
+.card-with-badge {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 300px;
+    width: 200px;
+    background-color: #ffd9c9;
+}
+
+.card-with-dismiss {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 300px;
+    width: 200px;
+    gap: auto;
+    background-color: #ffd9c9;
+}
+
+.card-with-badge>.coupon-heading {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.card-with-dismiss>.coupon-heading {
+    padding-top: auto;
+    text-align: center;
+}
+
+.coupon-code {
+    position: relative;
+    border: dashed #ff4800;
+    margin-top: 25px;
+    text-align: center;
+    background: white;
+}
+
+.card-with-badge>p,
+.card-with-dismiss>p {
+    border-radius: 15px;
+    transform: rotate(-45deg);
+    text-align: center;
+    padding: 5px;
+    width: 60px;
+    position: absolute;
+    background: chocolate;
+    color: white;
+}
+
+.coupon-off {
+    font-size: 3rem;
+    color: #ff4800;
+}
+
+.card-close-btn {
+    color: gray;
+    padding: 5px;
+    margin-top: 5px;
+    align-self: flex-end;
+}
+
+.card-close-btn:hover {
+    color: red;
+}
+
+
+/* end of Cards with badges */
+
+
+/* 3. Cards with text overlay */
+
+.card-text-overlay {
+    padding: 1px;
+    background: #ff4800;
+    color: white;
+    position: absolute;
+}
+
+
+/* end of Cards with text overlay */
+
+
+/* 4. Text only cards */
+
+.text-only-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.text-only-card-header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.text-only-card-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.text-only-card-links>.link-1 {
+    color: blue;
+}
+
+.text-only-card-links>.link-2 {
+    color: blue;
+}
+
+.text-only-card-links>.link-1:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.text-only-card-links>.link-2:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+
+/* end of Text only cards */
+
+
+/* 5. vertical card w/ and w/o shadow */
+
+.vertical-card-example {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.vertical-card-example>h3 {
+    line-height: 0.05rem;
+}
+
+.vertical-card-with-shadow,
+.vertical-card-without-shadow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 250px;
+    height: auto;
+    background: #ffd9c9;
+    padding-bottom: 15px;
+    gap: 0.5rem;
+}
+
+.vertical-card-with-shadow:hover {
+    box-shadow: 0px 0px 10px gray;
+    transition: box-shadow 0.5s;
+}
+
+.vertical-card-img {
+    width: 250px;
+}
+
+.card-title,
+.card-content {
+    padding-left: 10px;
+}
+
+.card-btn {
+    margin-left: 10px;
+}
+
+#buy-btn {
+    background: #ff4800;
+}
+
+#buy-btn:hover {
+    background-color: #852700;
+    transition: background-color 0.5s;
+}
+
+#add-to-cart-btn {
+    background-color: #ff9e78;
+}
+
+#add-to-cart-btn:hover {
+    background-color: #ff4800;
+    transition: background-color 0.5s;
+}
+
+#mrp {
+    text-decoration: line-through #ff4800;
+}
+
+
+/* *** */
+
+
+/* 6. horizontal card w/ and w/o shadow */
+
+.horizontal-card-with-shadow,
+.horizontal-card-without-shadow,
+.horizontal-card-with-text-overlay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 600px;
+    height: auto;
+    background: #ffd9c9;
+}
+
+.horizontal-card-with-shadow>img,
+.horizontal-card-without-shadow>img,
+.horizontal-card-with-text-overlay>img {
+    height: auto;
+}
+
+.horizontal-card-with-shadow:hover {
+    box-shadow: 0px 0px 10px gray;
+    transition: box-shadow 0.5s;
+}
+
+.horizontal-card-img {
+    height: 200px;
+    width: 300px;
+}
+
+.card-title,
+.card-content {
+    padding-left: 10px;
+}
+
+.card-btn {
+    margin-left: 10px;
+}
+
+#buy-btn {
+    background: #ff4800;
+}
+
+#buy-btn:hover {
+    background-color: #852700;
+    transition: background-color 0.5s;
+}
+
+#add-to-cart-btn {
+    background-color: #ff9e78;
+}
+
+#add-to-cart-btn:hover {
+    background-color: #ff4800;
+    transition: background-color 0.5s;
+}
+
+#mrp {
+    text-decoration: line-through #ff4800;
+}
+
+
+/* *** */
