@@ -38,12 +38,15 @@
 
 /* text utilities */
 
+@import url("/components/Text-Utilities.css");
 
 /* List */
 
+@import url("/components/list.css");
 
 /* Navbar */
 
+@import url("/components/Navigation.css");
 
 /* Modal */
 
