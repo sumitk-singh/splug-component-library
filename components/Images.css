@@ -1,0 +1,35 @@
+/* responsive image */
+
+.responsive-images-example {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.responsive-images-example>.responsive-images-sample {
+    width: 100%;
+    height: auto;
+}
+
+
+/* *** */
+
+
+/* round image */
+
+.round-images-example {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.round-images-example>.round-images-sample {
+    border-radius: 50%;
+    height: 12.6rem;
+    width: 12.6rem;
+}
+
+
+/* *** */
