@@ -1,26 +1,42 @@
+/* color variables */
+
+:root {
+    --color-gray: gray;
+    --color-light-gray: lightgray;
+    --color-model-background: #ffebec;
+    --color-black: black;
+    --color-white: white;
+    --color-orange: #fc6d76;
+    --color-dark-orange: #c2000c;
+}
+
+
+/* *** */
+
+
 /* modal */
 
 .modal {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    width: 450px;
-    background: #ffebec;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 45px;
+    width: 28.125rem;
+    background: var(--color-model-background);
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+    padding-top: 1.563rem;
+    padding-bottom: 2.813rem;
     text-align: center;
     text-decoration: none;
 }
 
 .modal-header {
     align-self: end;
-    height: 25px;
+    height: 1.563rem;
 }
 
 .modal-content {
-    padding-top: 15px;
+    padding-top: 1rem;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -36,28 +52,28 @@
 p>a {
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: var(--color-black);
 }
 
 .modal-btn-1 {
     background: transparent;
-    border: 1px solid lightgray;
+    border: 1px solid var(--color-light-gray);
 }
 
 .modal-btn-1:hover {
-    background: gray;
-    color: white;
+    background: var(--color-gray);
+    color: var(--color-white);
     transition: color 0.5s;
     transition: background 0.5s;
 }
 
 .modal-btn-2 {
-    background: #fc6d76;
-    color: white;
+    background: var(--color-orange);
+    color: var(--color-white);
 }
 
 .modal-btn-2:hover {
-    background: #c2000c;
+    background: var(--color-dark-orange);
     transition: background 0.5s;
 }
 
