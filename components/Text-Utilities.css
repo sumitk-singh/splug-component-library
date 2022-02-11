@@ -1,0 +1,117 @@
+/* color variables */
+
+:root {
+    --color-light-gray: lightgray;
+    --color-red: red;
+}
+
+
+/* *** */
+
+
+/* heading */
+
+.heading {
+    text-align: left;
+    margin: 1rem;
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.h3 {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.h4 {
+    font-weight: bold;
+    font-size: 1.50rem;
+}
+
+.h5 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.h6 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/* *** */
+
+
+/* small text */
+
+.small-text {
+    font-size: 8px;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
+
+.text-itallic {
+    font-style: italic;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+.text-line-through {
+    text-decoration: line-through var(--color-red);
+}
+
+.text-space-between {
+    letter-spacing: 3px;
+}
+
+
+/* *** */
+
+
+/* gray text */
+
+.gray {
+    color: var(--color-light-gray);
+}
+
+
+/* *** */
+
+
+/* center text */
+
+.center-text {
+    text-align: center;
+    width: 100%;
+}
+
+
+/* *** */
+
+
+/* stack list */
+
+.stacked-list-default {
+    list-style: none;
+    width: auto;
+    height: 100%;
+}
+
+.stacked-list-default>li {
+    padding: 5px
+}
+
+
+/* *** */
