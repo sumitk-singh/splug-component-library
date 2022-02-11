@@ -1,0 +1,39 @@
+/* grid */
+
+.grid-simplified {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "img bodyContents";
+    height: auto;
+    width: 100%;
+}
+
+.grid-simplified-img {
+    grid-area: img;
+}
+
+.grid-simplified-img>img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.grid-simplified-contents {
+    grid-area: bodyContents;
+    align-self: center;
+    place-self: center;
+}
+
+.grid-simplified-contents>h3 {
+    text-align: center;
+}
+
+.grid-simplified-contents>h4 {
+    text-align: center;
+}
+
+.grid-simplified-contents>a {
+    text-align: center;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 5px;
+}
