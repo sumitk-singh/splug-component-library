@@ -1,104 +1,132 @@
-        /* unordered list */
-        
-        .style-type-circle>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: circle;
-        }
-        
-        .style-type-disc>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: disc;
-        }
-        
-        .style-type-square>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: square;
-        }
-        /* *** */
-        /* Ordered list */
-        
-        .style-type-srList>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: decimal;
-        }
-        
-        .style-type-lower-alpha>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: lower-alpha;
-        }
-        
-        .style-type-upper-alpha>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: upper-alpha;
-        }
-        
-        .style-type-lower-roman>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: lower-roman;
-        }
-        
-        .style-type-upper-roman>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: upper-roman;
-        }
-        /* *** */
-        /* list with no bullets */
-        
-        .style-type-none>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: none;
-        }
-        /* *** */
-        /* inline list */
-        
-        .style-type-inline {
-            display: flex;
-            flex-direction: row;
-            gap: 1rem;
-        }
-        
-        .style-type-inline>li {
-            display: list-item;
-            padding: 5px;
-            list-style-type: none;
-        }
-        
-        .list-spaced {
-            display: flex;
-        }
-        /* *** */
-        /* stacked-list */
-        
-        .link-no-style {
-            display: flex;
-            flex-direction: row;
-            width: 350px;
-            height: auto;
-            gap: 1rem;
-            padding: 1rem;
-            border: 1px solid lightgray;
-            cursor: pointer;
-        }
-        
-        .stacked-list-img {
-            height: 100px;
-            width: 175px;
-        }
-        
-        .stacked-list-text {
-            line-height: 1.5rem;
-        }
-        
-        .stacked-list-tiime {
-            color: lightgray;
-        }
-        /* *** */
+/* color variables */
+
+:root {
+    --color-light-gray: lightgray;
+}
+
+
+/* *** */
+
+
+/* unordered list */
+
+.style-type-circle>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: circle;
+}
+
+.style-type-disc>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: disc;
+}
+
+.style-type-square>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: square;
+}
+
+
+/* *** */
+
+
+/* Ordered list */
+
+.style-type-srList>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: decimal;
+}
+
+.style-type-lower-alpha>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: lower-alpha;
+}
+
+.style-type-upper-alpha>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: upper-alpha;
+}
+
+.style-type-lower-roman>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: lower-roman;
+}
+
+.style-type-upper-roman>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: upper-roman;
+}
+
+
+/* *** */
+
+
+/* list with no bullets */
+
+.style-type-none>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: none;
+}
+
+
+/* *** */
+
+
+/* inline list */
+
+.style-type-inline {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.style-type-inline>li {
+    display: list-item;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.list-spaced {
+    display: flex;
+}
+
+
+/* *** */
+
+
+/* stacked-list */
+
+.link-no-style {
+    display: flex;
+    flex-direction: row;
+    width: 21.875rem;
+    height: auto;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-light-gray);
+    cursor: pointer;
+}
+
+.stacked-list-img {
+    height: 6.25rem;
+    width: 10.938rem;
+}
+
+.stacked-list-text {
+    line-height: 1.5rem;
+}
+
+.stacked-list-tiime {
+    color: var(--color-light-gray);
+}
+
+
+/* *** */

@@ -1,3 +1,14 @@
+/* color variables */
+
+:root {
+    --color-light-gray: lightgray;
+    --color-red: red;
+}
+
+
+/* *** */
+
+
 /* heading */
 
 .heading {
@@ -42,7 +53,7 @@
 /* small text */
 
 .small-text {
-    font-size: 0.5rem;
+    font-size: 8px;
 }
 
 .text-bold {
@@ -58,7 +69,7 @@
 }
 
 .text-line-through {
-    text-decoration: line-through red;
+    text-decoration: line-through var(--color-red);
 }
 
 .text-space-between {
@@ -72,7 +83,7 @@
 /* gray text */
 
 .gray {
-    color: lightgray;
+    color: var(--color-light-gray);
 }
 
 
