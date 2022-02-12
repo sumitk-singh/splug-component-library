@@ -1,0 +1,86 @@
+/* color variables */
+
+:root {
+    --color-gray: gray;
+    --color-light-gray: lightgray;
+    --color-model-background: #ffebec;
+    --color-black: black;
+    --color-white: white;
+    --color-orange: #fc6d76;
+    --color-dark-orange: #c2000c;
+}
+
+
+/* *** */
+
+
+/* modal */
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 28.125rem;
+    background: var(--color-model-background);
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+    padding-top: 1.563rem;
+    padding-bottom: 2.813rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.modal-header {
+    align-self: end;
+    height: 1.563rem;
+}
+
+.modal-content {
+    padding-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.modal-btn-1,
+.modal-btn-2 {
+    padding: 5px;
+    height: 5px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+p>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.modal-btn-1 {
+    background: transparent;
+    border: 1px solid var(--color-light-gray);
+}
+
+.modal-btn-1:hover {
+    background: var(--color-gray);
+    color: var(--color-white);
+    transition: color 0.5s;
+    transition: background 0.5s;
+}
+
+.modal-btn-2 {
+    background: var(--color-orange);
+    color: var(--color-white);
+}
+
+.modal-btn-2:hover {
+    background: var(--color-dark-orange);
+    transition: background 0.5s;
+}
+
+.modal-header>a {
+    cursor: pointer;
+}
+
+.modal-btn-group>a {
+    cursor: pointer;
+}

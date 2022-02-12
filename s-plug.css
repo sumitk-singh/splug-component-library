@@ -50,18 +50,19 @@
 
 /* Modal */
 
+@import url("/components/Modal.css");
 
 /* rating for e-commerce */
 
+@import url("/components/Rating.css");
 
 /* Toast */
 
+@import url("/components/Toast.css");
 
 /* Grid simplified */
 
-
-/* colors variables */
-
+@import url("/components/Grid.css");
 :root {
     --primary: rgb(0, 0, 255);
     --primary-hover: rgb(0, 33, 140);

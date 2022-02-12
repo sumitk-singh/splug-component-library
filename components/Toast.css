@@ -1,0 +1,52 @@
+/* color variables     */
+
+:root {
+    --color-white: white;
+    --color-green: #017F88;
+    --color-dark-green: #005F00;
+    --color-orange: #FF0000;
+}
+
+
+/* *** */
+
+.toast {
+    display: flex;
+    width: fit-content;
+    background-color: white;
+    border-radius: 0.3rem;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.toast>div>.msg {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.toast-success>p {
+    background-color: #005F00;
+    color: white;
+}
+
+.toast-error>p {
+    background-color: #FF0000;
+    color: white;
+}
+
+.toast-info>p {
+    background-color: #017F88;
+    color: white;
+}
+
+.toast-close-btn {
+    padding-left: 1rem;
+}
+
+.toast-close-btn:hover {
+    cursor: pointer;
+    z-index: 1;
+}
