@@ -10,3 +10,6 @@ Include CSS file mentioned in [installation](https://splug-dev.netlify.app/#hom
 - Documentation will help you to understand look and feel of the components.
 - In [Documentation](https://splug-dev.netlify.app/docs-page.html), example's html code is written, you can directly copy and paste in your html file.
 - You can also create combinations of components by adding appropriate class to your html elements.
+
+
+### Learning and growing with [@neogcamp](https://twitter.com/neogcamp)
