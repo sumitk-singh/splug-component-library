@@ -12,4 +12,4 @@ Include CSS file mentioned in [installation](https://splug-dev.netlify.app/#hom
 - You can also create combinations of components by adding appropriate class to your html elements.
 
 
-### Learning and growing with [@neogcamp](https://twitter.com/neogcamp)
+#### Learning and growing with [@neogcamp](https://twitter.com/neogcamp)
