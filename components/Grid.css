@@ -1,3 +1,7 @@
+:root {
+    --color-dark: #000000;
+}
+
 /* grid */
 
 .grid-simplified {
@@ -37,3 +41,63 @@
     margin-left: 1.563rem;
     margin-top: 5px;
 }
+
+/* start of grid-two-items */
+.grid-two-items {
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+    grid-template-areas:
+        "grid-two-items-item-1 grid-two-items-item-2";
+    width: 100%;
+}
+
+.grid-two-items-item-1 {
+    grid-area: grid-two-items-item-1;
+    height: 12rem;
+    width: 100%;
+    border: 1px solid var(--color-dark);
+}
+
+.grid-two-items-item-2 {
+    grid-area: grid-two-items-item-2;
+    height: 12rem;
+    width: 100%;
+    border: 1px solid var(--color-dark);
+}
+
+/* End of grid-two-items */
+
+
+/* start of grid-three-items */
+.grid-three-items {
+    display: grid;
+    text-align: center;
+    gap: 1rem;
+    grid-template-areas:
+        "grid-two-items-item-1 grid-two-items-item-2"
+        "grid-two-items-item-3 grid-two-items-item-3";
+    width: 100%;
+}
+
+.grid-three-items-item-1 {
+    grid-area: grid-two-items-item-1;
+    height: 12rem;
+    width: 100%;
+    border: 1px solid var(--color-dark);
+}
+
+.grid-three-items-item-2 {
+    grid-area: grid-two-items-item-2;
+    height: 12rem;
+    width: 100%;
+    border: 1px solid var(--color-dark);
+}
+
+.grid-three-items-item-3 {
+    grid-area: grid-two-items-item-3;
+    height: 12rem;
+    width: 100%;
+    border: 1px solid var(--color-dark);
+}
+/* End of grid-three-items */
